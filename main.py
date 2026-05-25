@@ -178,7 +178,8 @@ with open(getRealPath("meta.json"), "r") as f:
 
 # create an instance, now we are talking... or fucking
 fucker = Fucker(proxies=proxies, speed=args.speed, end_thre=args.threshold, limit=args.limit,
-                pushplus_token=pushplus_token, bark_token=bark_token, tree_view=tree_view, progressbar_view=progressbar_view, image_path=image_path)
+                pushplus_token=pushplus_token, bark_token=bark_token,
+                tree_view=tree_view, progressbar_view=progressbar_view, image_path=image_path)
 
 cookies_path = getRealPath("./cookies.json")
 cookies_loaded = False

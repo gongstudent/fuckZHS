@@ -1239,11 +1239,12 @@ class Fucker:
         self.watchVideo(fileId)
 
         played_time = startAt
+        end_time = max(int(video_length * self.end_thre), 1)  # respect -t threshold
         # 开始观看
-        while played_time < video_length:
+        while played_time < end_time:
             # 上传视频观看进度
             played_time = min(
-                int(round(played_time + (self.speed or 1.5) * 2)), video_length)
+                int(round(played_time + (self.speed or 1.5) * 2)), end_time)
             try:
                 self.reportAiVideoProcess(
                     courseId, classId, fileId, knowledgeId, played_time, watchUId=watchUId)
@@ -1254,7 +1255,7 @@ class Fucker:
 
             if self.progressbar_view:
                 # print progress bar
-                s, e = [played_time, video_length]
+                s, e = [played_time, end_time]
                 action = f"fucking {fileId}"
                 progressBar(s, e, prefix=action,
                             suffix=f"({played_time}/{video_length})")
@@ -1412,6 +1413,7 @@ class Fucker:
                     tprint(prefix*3)  # extra line as separator
                     tprint(
                         f"{prefix*3}__Fucked knowledge point {knowledge.knowledgeName}")
+
                 else:
                     if ppt_conf.get("provide_to_ai", False) and moonShot_conf.get("api_key", ""):
                         try:
