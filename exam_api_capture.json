@@ -1,0 +1,128 @@
+[
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fpassport.zhihuishu.com%2Flogin&zoneId=&id=75f9f716460a422f89a628f50fd8cc2b&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&callback=__JSONP_ag5hfks_0",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_ag5hfks_0({\"data\":{\"dt\":\"YNpzPxmwgi5BRlAFQAeSuCtc8TbeOd9V\",\"ac\":{\"enable\":1,\"bid\":\"75f9f716460a422f89a628f50fd8cc2b\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fpassport.zhihuishu.com%2Flogin&zoneId=&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&callback=__JSONP_gayukd0_1",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_gayukd0_1({\"data\":{\"dt\":\"zIdeznKYiOtAAxAAQBfH7T9YtSKOL5OW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "GET",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/f/v1/gologin/login?fromurl=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "\n\n\n\n\n<!DOCTYPE html>\n<html>\n<head>\n\t\n\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=0.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0\" />\n<meta name=\"description\" content=\"智慧树是全球知名的学分课程服务平台，在线教育平台拥有海量大学高品质课程，网络教育在线完美支持跨校授课，学分认证，名师名课名校，在线互动教育学堂，体验VIP级课程学习，让你成为学堂中的MVP。\">\n<link rel=\"shortcut icon\" href=\"http://assets.zhihuishu.com/icon/favicon.ico\" >\n<script type=\"text/javascript\">\nvar ctx = \"/studentExam\" ;\n</script>\n<script src=\"https://assets.zhihuishu.com/jquery/1.8.3/jquery.min.js\" type=\"text/javascript\"></script>\n\t<title>智慧树用户管理</title>\n\t<script type=\"text/javascript\" src=\"http://assets.zhihuishu.com/jquery/1.8.3/jquery.min.js\"></script>\n\t<script type=\"text/javascript\" src=\"http://assets.zhihuishu.com/jquery-cookie/1.4.1/jquery.cookie.min.js\"></script>\n</head>\n<script>\n    var fromurl = decodeURI(\"https://onlineexamh5new.zhihuishu.com/stuExamWeb.html#/webExamList/dohomework/424318/ymV234vg/yYGGxEJe/1000159079/6729/0\");\n    fromurl = decodeURI(fromurl);\n    fromurl = fromurl;\n    window.location.href=fromurl ;\n</script>\n\t\n</html>"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/f/v1/ulogin/getLoginUserInfo",
+    "status": 200,
+    "request_post_data": "secretStr=3EBbp%2FRHh8qq6E8DTFl4XLCQ%2BUQaRNIPyXCumS%2FDHFXskTSY8wZ8Z1vIzC5iCdZV",
+    "response_body": "{\"currentTime\":1780042039695,\"msg\":\"请求成功\",\"rt\":{\"userId\":null,\"username\":\"e3906eb4705a416c9b73d3c8c9ea829b\",\"realName\":\"智慧高教用户_7d08d\",\"phoneNumber\":null,\"headPicUrl\":\"https://image.zhihuishu.com/zhs/ablecommons/demo/201804/761ff9d5708e48c0be5ae3b8198936b3.jpg\",\"birthday\":null,\"sex\":null,\"createTime\":null,\"updateTime\":null,\"introduction\":null,\"source\":null,\"bindType\":null,\"isAuth\":null,\"knowledgeBackground\":null,\"phoneNumberAuthorityType\":null,\"uuid\":\"E5xgK1Q3\",\"commonUserSchoolRMIDto\":{\"userId\":null,\"beginYear\":null,\"schoolType\":null,\"schoolId\":null,\"professionalName\":null,\"authorityType\":null,\"schoolName\":null,\"isDeleted\":null,\"createTime\":null,\"updateTime\":null},\"resultCode\":null,\"email\":null,\"emailValidator\":null},\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://taurusexam-api.zhihuishu.com/taurusExam/gateway/f/v1/ulogin/getLoginUserInfo",
+    "status": 200,
+    "request_post_data": "secretStr=3EBbp%2FRHh8qq6E8DTFl4XHY4xUNiyMIyWbKIpOGOSX6bPn2hpfru63mMeqz8ma4q",
+    "response_body": "{\"currentTime\":1780042039807,\"msg\":\"请求成功\",\"rt\":{\"userId\":null,\"username\":\"e3906eb4705a416c9b73d3c8c9ea829b\",\"realName\":\"智慧高教用户_7d08d\",\"phoneNumber\":null,\"headPicUrl\":\"https://image.zhihuishu.com/zhs/ablecommons/demo/201804/761ff9d5708e48c0be5ae3b8198936b3.jpg\",\"birthday\":null,\"sex\":null,\"createTime\":null,\"updateTime\":null,\"introduction\":null,\"source\":null,\"bindType\":null,\"isAuth\":null,\"knowledgeBackground\":null,\"phoneNumberAuthorityType\":null,\"uuid\":\"E5xgK1Q3\",\"commonUserSchoolRMIDto\":{\"userId\":null,\"beginYear\":null,\"schoolType\":null,\"schoolId\":null,\"professionalName\":null,\"authorityType\":null,\"schoolName\":null,\"isDeleted\":null,\"createTime\":null,\"updateTime\":null},\"resultCode\":null,\"email\":null,\"emailValidator\":null},\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://buried-point.zhihuishu.com/gateway/t/buriedPoint/common?content=%7B%22clientType%22%3A%22PC%22%2C%22deviceNumber%22%3A%22chrome%22%2C%22data%22%3A%5B%7B%22time%22%3A1780042050948%2C%22bizId%22%3A%22100004%22%2C%22recruitId%22%3A%22424318%22%2C%22stuExamId%22%3A%22ymV234vg%22%2C%22examId%22%3A%22yYGGxEJe%22%2C%22courseId%22%3A%221000159079%22%7D%5D%7D",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "{\"code\":200,\"message\":\"success\",\"data\":null,\"currentTime\":1780042040144}"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/exam/getCourseName",
+    "status": 200,
+    "request_post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "response_body": "{\"currentTime\":1780042040171,\"msg\":\"请求成功\",\"rt\":\"人工智能通识基础（大模型篇）（人工智能综合能力提升培训2026）\",\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/exam/getSingleRecruit",
+    "status": 200,
+    "request_post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "response_body": "{\"currentTime\":1780042040162,\"msg\":\"请求成功\",\"rt\":{\"id\":424318,\"name\":\"[公开课]人工智能通识基础（大模型篇）（人工智能综合能力提升培训2026）\",\"courseId\":1000159079,\"courseStartTime\":\"2026-04-28 00:00:00\",\"courseEndTime\":\"2026-06-10 23:59:59\",\"type\":2,\"courseState\":null,\"courseName\":\"人工智能通识基础（大模型篇）（人工智能综合能力提升培训2026）\",\"examStartTime\":null,\"examEndTime\":null,\"startTime\":null,\"endTime\":null,\"isAi\":true},\"status\":\"200\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0&zoneId=&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_4xvqqrh_0",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_4xvqqrh_0({\"data\":{\"dt\":\"kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/isPublicCourse",
+    "status": 200,
+    "request_post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "response_body": "{\"currentTime\":1780042040530,\"msg\":\"请求成功\",\"rt\":\"1\",\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/student/doHomework",
+    "status": 200,
+    "request_post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD2zQ2H76DcfoxKNVBvsUz4WJleNMF1YSujDszdTba6jl5nB2wSczufGF8uZtfKXzFv0NpQru2WE6D5ysqBvu%2FsGtm9PaAM5WYPvrWThut7n3boUfdLx5MnR1WeF%2FoboKHFw%3D%3D",
+    "response_body": "{\"currentTime\":1780042040551,\"msg\":\"请求成功\",\"rt\":{\"id\":null,\"score\":null,\"examBase\":{\"id\":\"yYGGxEJe\",\"name\":\"第二章单元测试\",\"courseName\":\"人工智能通识基础（大模型篇）（人工智能综合能力提升培训2026）\",\"toChapter\":\"第二章\",\"explain\":null,\"limitTime\":null,\"problemNum\":5,\"totalScore\":\"10\",\"pontType\":\"百分制\",\"chapterId\":1001338177,\"workExamParts\":[{\"id\":null,\"startSort\":1,\"questionCount\":5,\"questionDtos\":[{\"id\":null,\"parentId\":null,\"name\":\"关于“AGI火花”之辩，核心的质疑观点是，GPT-4等模型的惊人表现可能源于什么？（ ）\",\"listenId\":null,\"listenData\":null,\"questionType\":{\"id\":1,\"name\":\"单选题\"},\"questionOptions\":[{\"id\":473769904,\"content\":\"与人类相当的通用认知能力\"},{\"id\":473769900,\"content\":\"真正的情感和意识\"},{\"id\":473769908,\"content\":\"高级的模式匹配与统计关联\"},{\"id\":473769911,\"content\":\"超越人类智慧的人工超智能\"}],\"questionDatas\":null,\"questionChildrens\":null,\"questionScore\":\"2\",\"eid\":\"XoEZ0hJTITRDJ3RYNMN0KQ==\",\"comments\":null,\"result\":null},{\"id\":null,\"parentId\":null,\"name\":\"根据文本，目前已经存在一个被学术界和工业界普遍接受的、完美无缺的AGI测试标准。（ ）\",\"listenId\":null,\"listenData\":null,\"questionType\":{\"id\":14,\"name\":\"判断题\"},\"questionOptions\":[{\"id\":473767844,\"content\":\"错\"},{\"id\":473767842,\"content\":\"对\"}],\"questionDatas\":null,\"questionChildrens\":null,\"questionScore\":\"2\",\"eid\":\"U8Nkg+zDfxEuAWJQWls6sw==\",\"comments\":null,\"result\":null},{\"id\":null,\"parentId\":null,\"name\":\"文本提到了当前评估大语言模型（LLMs）时面临的挑战，包括以下哪些？（ ）\",\"listenId\":null,\"listenData\":null,\"questionType\":{\"id\":2,\"name\":\"多选题\"},\"questionOptions\":[{\"id\":473767851,\"content\":\"评估维度过于全面\"},{\"id\":473767848,\"content\":\"数据污染\"},{\"id\":473767852,\"content\":\"过度优化（为测试而学习）\"},{\"id\":473767855,\"content\":\"算力资源不足\"}],\"questionDatas\":null,\"questionChildrens\":null,\"questionScore\":\"2\",\"eid\":\"AI72Piwe6jpyAmnT97bldg==\",\"comments\":null,\"result\":null},{\"id\":null,\"parentId\":null,\"name\":\"谷歌DeepMind提出的AGI能力层级框架是基于什么进行衡量的？（ ）\",\"listenId\":null,\"listenData\":null,\"questionType\":{\"id\":1,\"name\":\"单选题\"},\"questionOptions\":[{\"id\":473767881,\"content\":\"与人类能力的对比\"},{\"id\":473767883,\"content\":\"能否通过经典的图灵测试\"},{\"id\":473767879,\"content\":\"完成经济任务的复杂度和自主性\"},{\"id\":473767885,\"content\":\"模型的参数数量和训练数据量\"}],\"questionDatas\":null,\"questionChildrens\":null,\"questionScore\":\"2\",\"eid\":\"DLppmfC9vr1vYf0KvIsZlw==\",\"comments\":null,\"result\":null},{\"id\":null,\"parentId\":null,\"name\":\"根据文本的“关键洞察”，我们应该如何审慎地看待AI的发展？（ ）\",\"listenId\":null,\"listenData\":null,\"questionType\":{\"id\":2,\"name\":\"多选题\"},\"questionOptions\":[{\"id\":473767886,\"content\":\"执着于预测AGI到来的具体时间点\"},{\"id\":473767892,\"content\":\"关注AI系统在解决具体任务方面确凿的能力进步\"},{\"id\":473767888,\"content\":\"审慎区分“看起来智能”和“真正智能”\"},{\"id\":473767890,\"content\":\"认识到当前所有的AI评估方法都存在局限性\"}],\"questionDatas\":null,\"questionChildrens\":null,\"questionScore\":\"2\",\"eid\":\"EFGBo/GfSqSc9spWBgVaJQ==\",\"comments\":null,\"result\":null}]}]},\"examEndTime\":\"2026-06-10 23:59:59\",\"state\":1,\"comment\":null},\"status\":\"200\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0&zoneId=&dt=kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_phkx2ij_1",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_phkx2ij_1({\"data\":{\"dt\":\"kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/student/currentTime",
+    "status": 200,
+    "request_post_data": "secretStr=h59pgMD3jICKJeMFWph0tg%3D%3D",
+    "response_body": "{\"currentTime\":1780042041021,\"msg\":\"请求成功\",\"rt\":\"2026-05-29 16:07:21\",\"status\":\"200\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0&zoneId=&dt=kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_rbuvcqt_2",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_rbuvcqt_2({\"data\":{\"dt\":\"kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/hasAnswer",
+    "status": 200,
+    "request_post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD2zQ2H76DcfoxKNVBvsUz4WK%2BVFjLY5PGmiG0nbweDu12A1%2BOGWiqmDctALeqR%2BIVqHDCzluIhNNvkkZXXZXHghA%3D",
+    "response_body": "{\"currentTime\":1780042041053,\"msg\":\"请求成功\",\"rt\":0,\"status\":\"200\"}"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0&zoneId=&dt=kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_ud89d4q_3",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_ud89d4q_3({\"data\":{\"dt\":\"kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0&zoneId=&dt=kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_vloulr4_5",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_vloulr4_5({\"data\":{\"dt\":\"kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2FymV234vg%2FyYGGxEJe%2F1000159079%2F6729%2F0&zoneId=&dt=kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_sd3ipq0_4",
+    "status": 200,
+    "request_post_data": null,
+    "response_body": "__JSONP_sd3ipq0_4({\"data\":{\"dt\":\"kGfHysVK1VxAU1BUUFfCqG9ItDgEHqOW\",\"ac\":{\"enable\":1,\"bid\":\"4da3050565514a35a50541b0e1f54538\",\"pn\":\"YD00763819167406\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528ab69db8ea65bcaeaf9ad05b9c94a3a3c434898987d2b25ef4b2a983bb2af0feacc3b92ae2f4ee95a132e29aa3b1cd72abae8cd1d44eb0b7bb82f55bb08fa3afd437fffeb3\"},\"imageServer\":[\"necaptcha.nosdn.127.net\",\"necaptcha-nosdn.126.net\"],\"zoneId\":\"CN31\",\"resources\":[\"/2.28.5/core-optimi.m25b40.v2.28.5.min.js\"],\"ir\":{\"enable\":1,\"apiServer\":[\"ir-sdk.dun.163.com\",\"ir-sdk.dun.163yun.com\"],\"pn\":\"YD00192283058223\",\"token\":\"9ca17ae2e6fecda16ae2e6eeb5cb528\"},\"apiServer\":[\"c.dun.163.com\",\"c.dun.163yun.com\"],\"theme\":\"light\",\"audio\":false,\"customStyles\":false,\"smart\":false,\"staticServers\":[\"cstaticdun.126.net\",\"cstaticdun1.126.net\"]},\"error\":0,\"msg\":\"ok\"});"
+  }
+]

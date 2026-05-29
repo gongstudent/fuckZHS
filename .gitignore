@@ -1,7 +1,5 @@
 **/NoUpload
 **/logs
-config.json
-cookies.json
 execution.json
 *.js
 .DS_Store
@@ -140,7 +138,3 @@ aiexamAnswer
 AiDownloadCache
 .vscode
 .claude/
-exam_api_capture.json
-save_answer_api.json
-all_requests.json
-*.png

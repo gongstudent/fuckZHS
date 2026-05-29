@@ -1,0 +1,30 @@
+[
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/isPublicCourse",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "status": 200,
+    "response": "{\"currentTime\":1780045485674,\"msg\":\"请求成功\",\"rt\":\"1\",\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/hasAnswer",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD2zQ2H76DcfoxKNVBvsUz4WJElhbx19rejGfImx0rzgA0SFwXUHUVj1wX8uo0xgrdonKIetBbbtlA73KCt4AB0z4%3D",
+    "status": 200,
+    "response": "{\"currentTime\":1780045486596,\"msg\":\"请求成功\",\"rt\":0,\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/saveStudentAnswer",
+    "post_data": "secretStr=hi7cPP8CbeHM2IP7SkqAXFzpy%2FTIIoiqe1apivRlkWc6Z7NBr6qH4HefPrKAyIaGQFKwPXI%2BJe9bm%2FYMf93%2FmhgECpK1ZT7XmX7nfyh8hGRi8AfDljXSNCtahDyc%2FNy%2F9kG9hApI9VBJPADgTfvgX0COJtff0YltTD1WgL88drrntuDydoK2nmGFFjnt2cH%2BdNLFVoNTa%2FqmjD4azKizxot2szQrwn0wtgQkDzEaPBJnLW9Hyp%2FxbjBU8S7XBUZaOSddcvDZk0L8LzawamN8CN7%2FF65jMUgQ%2B5pV90LMlJQSfbgnXPvUOo69ttYt31eRW%2FAqK%2Fbn4Xz5P6VRi%2FcIZS1E8oicg%2FPI2jN7Yp9Ak8XlsKJ7wyGkC0o7gIw0n3a2",
+    "status": 200,
+    "response": "{\"currentTime\":1780045489789,\"msg\":\"请求成功\",\"rt\":{\"msg\":\"\",\"statu\":\"1\"},\"status\":\"200\"}"
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/saveStudentAnswer",
+    "post_data": "secretStr=hi7cPP8CbeHM2IP7SkqAXFzpy%2FTIIoiqe1apivRlkWc6Z7NBr6qH4HefPrKAyIaGQFKwPXI%2BJe9bm%2FYMf93%2FmhgECpK1ZT7XmX7nfyh8hGRi8AfDljXSNCtahDyc%2FNy%2F18CZyXPVJWP8zb0u%2Fr9KFyOP2a7uhVbDGiaAPRXq6hu2yp61dWy7ea6qDdaq3Ug4Tk%2BH%2BGMSqLqmwwVlzQmDdWzMK2GwCkT9Vh8MY23BOLPIdXh2InoC2Tn5L%2FBTJ0%2FmGhVSKt%2FtIX08uSv2U%2FsqzU6z8s4EPpQUf%2FEmav4R64w%2FeYGzTTmFDcxVInYU%2Bd9JMPD69EujpubnUDmlGvooYTn6Y1RHSY823jtOpvQ3wvPqMIRx9E6H2pcegGRjdp2iO7i6z4nmlty3YL3phL0C4g%3D%3D",
+    "status": 200,
+    "response": "{\"currentTime\":1780045508949,\"msg\":\"请求成功\",\"rt\":{\"msg\":\"\",\"statu\":\"1\"},\"status\":\"200\"}"
+  }
+]

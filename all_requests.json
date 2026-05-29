@@ -1,0 +1,128 @@
+[
+  {
+    "method": "POST",
+    "url": "https://buried-point.zhihuishu.com/gateway/t/buriedPoint/common?content=%7B%22clientType%22%3A%22PC%22%2C%22deviceNumber%22%3A%22chrome%22%2C%22data%22%3A%5B%7B%22time%22%3A1780045484717%2C%22bizId%22%3A%22100004%22%2C%22recruitId%22%3A%22424318%22%2C%22stuExamId%22%3A%22e2NAgqRG%22%2C%22examId%22%3A%22er44ZJpy%22%2C%22courseId%22%3A%221000159079%22%7D%5D%7D",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fpassport.zhihuishu.com%2Flogin&zoneId=&id=75f9f716460a422f89a628f50fd8cc2b&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&callback=__JSONP_307jzbx_0",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fpassport.zhihuishu.com%2Flogin&zoneId=&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&callback=__JSONP_mojdc1j_1",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/f/v1/gologin/login?fromurl=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/f/v1/ulogin/getLoginUserInfo",
+    "post_data": "secretStr=3EBbp%2FRHh8qq6E8DTFl4XFQFXrZfMx2rsIUHECFKPbGUWcBt4IZorffThw0Xz9kI",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://buried-point.zhihuishu.com/gateway/t/buriedPoint/common?content=%7B%22clientType%22%3A%22PC%22%2C%22deviceNumber%22%3A%22chrome%22%2C%22data%22%3A%5B%7B%22time%22%3A1780045495982%2C%22bizId%22%3A%22100004%22%2C%22recruitId%22%3A%22424318%22%2C%22stuExamId%22%3A%22e2NAgqRG%22%2C%22examId%22%3A%22er44ZJpy%22%2C%22courseId%22%3A%221000159079%22%7D%5D%7D",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://taurusexam-api.zhihuishu.com/taurusExam/gateway/f/v1/ulogin/getLoginUserInfo",
+    "post_data": "secretStr=3EBbp%2FRHh8qq6E8DTFl4XMommDlhSHp6gNBCZaGgiY7wutuG6WW9GYmHzRSZFUB3",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/exam/getSingleRecruit",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/exam/getCourseName",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0&zoneId=&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_vu5p6hk_0",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/isPublicCourse",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD22eorT%2BgiZejQuXHNbCF4bI%3D",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/student/doHomework",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD2zQ2H76DcfoxKNVBvsUz4WK5%2FzQbpjpUtYr%2FxroUt2rnA1X9NnckiK0mG0%2Bx6xuauGoajhVelgBoFFdn6WnmwDGo4wWEJp1rl8%2FO4SiVTyZjzZK11EwjfaG0tG1%2BZqSqKA%3D%3D",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/student/currentTime",
+    "post_data": "secretStr=h59pgMD3jICKJeMFWph0tg%3D%3D",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/hasAnswer",
+    "post_data": "secretStr=Vo7ViTTiXUKx4l%2Bdz0PD2zQ2H76DcfoxKNVBvsUz4WJElhbx19rejGfImx0rzgA0SFwXUHUVj1wX8uo0xgrdonKIetBbbtlA73KCt4AB0z4%3D",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0&zoneId=&dt=HIuqGPQcXZVBRwQUEVeS%2FWsYq93WN53f&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_ik2pe2q_2",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0&zoneId=&dt=HIuqGPQcXZVBRwQUEVeS%2FWsYq93WN53f&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_olgkns3_1",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0&zoneId=&dt=HIuqGPQcXZVBRwQUEVeS%2FWsYq93WN53f&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_z0divy8_4",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0&zoneId=&dt=HIuqGPQcXZVBRwQUEVeS%2FWsYq93WN53f&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_ntcjfs3_3",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "url": "https://c.dun.163.com/api/v2/getconf?referer=https%3A%2F%2Fonlineexamh5new.zhihuishu.com%2FstuExamWeb.html%23%2FwebExamList%2Fdohomework%2F424318%2Fe2NAgqRG%2Fer44ZJpy%2F1000159079%2F6729%2F0&zoneId=&dt=HIuqGPQcXZVBRwQUEVeS%2FWsYq93WN53f&id=4da3050565514a35a50541b0e1f54538&ipv6=false&runEnv=10&iv=5&loadVersion=2.5.4&lang=zh-CN&callback=__JSONP_b7xu1uz_5",
+    "post_data": null,
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/saveStudentAnswer",
+    "post_data": "secretStr=hi7cPP8CbeHM2IP7SkqAXFzpy%2FTIIoiqe1apivRlkWc6Z7NBr6qH4HefPrKAyIaGQFKwPXI%2BJe9bm%2FYMf93%2FmhgECpK1ZT7XmX7nfyh8hGRi8AfDljXSNCtahDyc%2FNy%2F9kG9hApI9VBJPADgTfvgX0COJtff0YltTD1WgL88drrntuDydoK2nmGFFjnt2cH%2BdNLFVoNTa%2FqmjD4azKizxot2szQrwn0wtgQkDzEaPBJnLW9Hyp%2FxbjBU8S7XBUZaOSddcvDZk0L8LzawamN8CN7%2FF65jMUgQ%2B5pV90LMlJQSfbgnXPvUOo69ttYt31eRW%2FAqK%2Fbn4Xz5P6VRi%2FcIZS1E8oicg%2FPI2jN7Yp9Ak8XlsKJ7wyGkC0o7gIw0n3a2",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "url": "https://studentexam-api.zhihuishu.com/studentExam/gateway/t/v1/answer/saveStudentAnswer",
+    "post_data": "secretStr=hi7cPP8CbeHM2IP7SkqAXFzpy%2FTIIoiqe1apivRlkWc6Z7NBr6qH4HefPrKAyIaGQFKwPXI%2BJe9bm%2FYMf93%2FmhgECpK1ZT7XmX7nfyh8hGRi8AfDljXSNCtahDyc%2FNy%2F18CZyXPVJWP8zb0u%2Fr9KFyOP2a7uhVbDGiaAPRXq6hu2yp61dWy7ea6qDdaq3Ug4Tk%2BH%2BGMSqLqmwwVlzQmDdWzMK2GwCkT9Vh8MY23BOLPIdXh2InoC2Tn5L%2FBTJ0%2FmGhVSKt%2FtIX08uSv2U%2FsqzU6z8s4EPpQUf%2FEmav4R64w%2FeYGzTTmFDcxVInYU%2Bd9JMPD69EujpubnUDmlGvooYTn6Y1RHSY823jtOpvQ3wvPqMIRx9E6H2pcegGRjdp2iO7i6z4nmlty3YL3phL0C4g%3D%3D",
+    "status": 200
+  }
+]
