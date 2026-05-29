@@ -86,9 +86,9 @@ class Fucker:
         self.proxies = proxies or urllib.request.getproxies() # explicitly use system proxy
         self.headers = headers or {
             "Accept": "*/*",
-            "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"101\", \"Google Chrome\";v=\"101\"",
+            "sec-ch-ua": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\"",
             "sec-ch-ua-mobile": "?0",
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36",
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
             "sec-ch-ua-platform": "macOS",
             "Accept-Encoding": "gzip, deflate, br",
             "Accept-Language": "en-GB,en;q=0.9"
@@ -472,6 +472,17 @@ class Fucker:
                             self._pushplus("fuckZHS","需要提供验证码")
                             self._bark("fuckZHS","需要提供验证码")
                             tprint(f"{prefix*3}##Captcha: 需要滑块验证，请在知到APP/网页手动验证后等待重试...")
+                            try:
+                                import tkinter as tk
+                                from tkinter import messagebox
+                                def _popup():
+                                    root = tk.Tk()
+                                    root.withdraw()
+                                    messagebox.showwarning("fuckZHS 验证码", "需要滑块验证！\n请在知到APP/网页手动验证后点击确定重试。")
+                                    root.destroy()
+                                Thread(target=_popup, daemon=True).start()
+                            except Exception:
+                                pass
                             # retry with backoff
                             for retry in range(3):
                                 wait = 30 + retry * 30 + int(random() * 20)
@@ -2133,17 +2144,34 @@ class Openai:
             try:
                 response = self.session.post(
                     url, json=body, timeout=30, stream=self.stream)
+                logger.debug(f"Zhidao AI response status: {response.status_code}")
+                logger.debug(f"Zhidao AI response body: {response.text[:500]}")
                 response.raise_for_status()
 
                 if self.stream:
                     result = self.__parseStream(response, aimStart, aimEnd)
                 else:
-                    result = json.loads(response.text[5:])
+                    resp_text = response.text
+                    # 非 stream 响应可能有 "data:" 前缀
+                    if resp_text.startswith("data:"):
+                        resp_text = resp_text[5:]
+                    result = json.loads(resp_text)
+                    # 检查是否是错误响应
+                    if isinstance(result, dict) and result.get("code") and str(result["code"]) != "200":
+                        raise ValueError(f"Zhidao AI error: code={result.get('code')}, msg={result.get('message')}")
 
-                return result["choices"][0]["message"]["content"] if isinstance(result, dict) else result
-            except requests.exceptions.RequestException as e:
+                if isinstance(result, dict):
+                    content = result["choices"][0]["message"]["content"]
+                else:
+                    content = result
+
+                if content is None:
+                    raise ValueError(f"Zhidao AI returned None content, response: {response.text[:300]}")
+
+                return content
+            except Exception as e:
                 logger.error(
-                    f"Completion attempt {attempt + 1} failed: {str(e)}")
+                    f"Completion attempt {attempt + 1} failed: {type(e).__name__}: {str(e)}")
                 if attempt < max_retries - 1:
                     time.sleep(retry_delay)
                 else:
@@ -2151,7 +2179,6 @@ class Openai:
                         "All completion attempts failed, giving up...")
                     raise
 
-        # This line should never be reached, but it's here for completeness
         raise Exception("Unexpected error in completion method")
 
     def __generate_random_session_nid(self):
